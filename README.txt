@@ -1,47 +1,28 @@
 = Zanox.rb
 
-* Rubyforge profile: http://zanox.rubyforge.org
-* Source code repository: git://rubyforge.org/zanox.git
-
+* Rubyforge profile: n/a
+* Source code repository: git://codaset.com/tecnh/zanox.git
 
 == DESCRIPTION:
 
-Ruby wrapper around Zanox.com[http://www.zanox.com] API.
+Modified version of the Zanox gem hosted @ rubyforge/gemcutter, designed to work with the 2009-07 API.
 
 == FEATURES:
 
 Currently implemented API methods:
 
-* get_adspaces
-* get_adspace
-* delete_adspace
-* get_program
-* get_programs
-* search_programs
-* get_program_news
-* get_program_categories
+*** FOR XML/JSON ONLY, NO SOAP ***
+
+* get_programs_by_region
 * get_programs_by_adspace
-* delete_program_application
-* get_product
-* get_products_by_program
-* search_products
-* get_admedium
+* create_program_application
 * get_admedia_by_program
-* get_admedia_categories_by_program
 * get_sales
 * get_leads
-* get_payments
-* get_payment
 * get_balances
-* get_balance
-* get_accounts
-* get_account
 * get_profile
 
-  
-== NOT YET IMPLEMENTED:
-
-* create and update methods
+Other calls may or may not work and have not been tested
   
 == REQUIREMENTS:
 
@@ -55,9 +36,11 @@ Currently implemented API methods:
 
 == CONTACT:
 
-* chi-dong.ly@palabea.com
+* gems@tecnh.com
 
 == LICENSE:
+
+PLEASE DO NOT DISTRIBUTE AS THIS IS A ROUGH PROTOTYPE.
 
 (The MIT License)
 
